@@ -1,0 +1,17 @@
+$primary-color-background: #a530f9;
+
+
+$primary-color-font: #fff;
+$secondary-color-font: #000;
+
+
+
+
+body {
+  background-color: $primary-color-background;
+  color: $primary-color-font;
+}
+
+.scss-secondary-color-font {
+  color: $secondary-color-font;
+}
