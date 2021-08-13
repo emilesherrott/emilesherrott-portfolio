@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1 className="d-flex justify-content-center">{title}</h1>
+      <h1 className="d-flex justify-content-center scss-home-title">{title}</h1>
       <Overflow />
       {/* <AboutMe /> */}
       <Qualifications />
