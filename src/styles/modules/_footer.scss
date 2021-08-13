@@ -2,3 +2,52 @@
   margin-top: 15vh;
   margin-bottom: 5vh;
 }
+
+.scss-footer-body {
+  display: flex;
+  flex-direction: column;
+}
+.scss-footer-contactinfo {
+  margin-bottom: 20px;
+}
+.scss-footer-text {
+  color: #fff;
+  text-decoration-style: wavy;
+  &:hover {
+    color: $primary-bootstrap-color;
+  }
+}
+.scss-footer-skills {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 8px;
+}
+.scss-language-logo {
+  width: 30px;
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+
+
+
+@include media-breakpoint-up(md) {
+  .scss-language-logo {
+    width: 35px;
+    box-sizing: border-box;
+    margin-right: 5px;
+  }
+}
+
+
+
+@include media-breakpoint-up(lg) {
+  .scss-footer-body {
+    flex-direction: row;
+  }
+  .scss-language-logo {
+    width: 45px;
+    box-sizing: border-box;
+    margin-right: 5px;
+  }
+}
+
