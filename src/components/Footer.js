@@ -29,13 +29,13 @@ const Footer = () => {
       <div className="row scss-footer-body">
         <div className="col col-lg-6 scss-footer-contactinfo">
           <a href="emilesherrott@gmail.com" target="_blank">
-            <h3 className="scss-footer-text">emilesherrott@gmail.com</h3>
+            <p className="scss-footer-text">emilesherrott@gmail.com</p>
           </a>
           <a href="https://github.com/emilesherrott" target="_blank" rel="noreferrer">
-            <h3 className="scss-footer-text">github.com/emilesherrott</h3>
+            <p className="scss-footer-text">github.com/emilesherrott</p>
           </a>
           <a href="https://www.linkedin.com/in/emilesherrott/" target="_blank" rel="noreferrer">
-            <h3 className="scss-footer-text">linkedin.com/in/emilesherrott/</h3>
+            <p className="scss-footer-text">linkedin.com/in/emilesherrott/</p>
           </a>
         </div>
         <div className="col col-lg-6 scss-footer-logo-section">
@@ -67,7 +67,7 @@ const Footer = () => {
           </div>
 
           <div className="scss-footer-skills">
-            <p>Management & Deployment:</p>
+            <p className="scss-footer-skill-type">Management & Deployment:</p>
             <div className="d-flex">
               <GitLogo />
               <GitHubLogo />

@@ -11,6 +11,7 @@
   margin-bottom: 20px;
 }
 .scss-footer-text {
+  font-size: large;
   color: #fff;
   text-decoration-style: wavy;
   &:hover {
@@ -19,8 +20,11 @@
 }
 .scss-footer-skills {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   margin-bottom: 8px;
+}
+.scss-footer-skill-type {
+  width: max-content;
 }
 .scss-language-logo {
   width: 30px;
@@ -31,6 +35,9 @@
 
 
 @include media-breakpoint-up(md) {
+  .scss-footer-text {
+    font-size: larger;
+  }
   .scss-language-logo {
     width: 35px;
     box-sizing: border-box;
@@ -43,6 +50,9 @@
 @include media-breakpoint-up(lg) {
   .scss-footer-body {
     flex-direction: row;
+  }
+  .scss-footer-text {
+    font-size: x-large;
   }
   .scss-language-logo {
     width: 45px;
