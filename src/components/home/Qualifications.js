@@ -19,7 +19,7 @@ const Qualifications = () => {
             <div className="col-6 col-md-4 col-lg-2 col-xxl-1">
 
 
-              <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#software-engineering-immersive">
+              <button type="button" className="btn btn-primary scss-modal-button" data-bs-toggle="modal" data-bs-target="#software-engineering-immersive">
                 <div className="d-flex justify-content-center scss-qualifications-text">Software Engineering Immersive</div>
                 <div className="d-flex justify-content-center"><img src={ga} alt="general assembly logo" className="scss-qualifications-img" /></div>
               </button>
