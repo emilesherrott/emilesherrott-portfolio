@@ -12,12 +12,12 @@
   font-size: 1.5rem;
 }
 .scss-modal-certificate-img, .scss-modal-body-text {
-  width: 400px;
+  width: 280px;
   display: block;
 }
 @include media-breakpoint-up(sm) {
   .scss-modal-certificate-img, .scss-modal-body-text {
-    width: 464px;
+    width: 320px;
     box-sizing: border-box;
     }
   }
