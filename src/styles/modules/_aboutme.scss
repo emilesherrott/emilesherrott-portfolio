@@ -1,3 +1,5 @@
+
+
 .scss-aboutme-body {
   margin-top: 20px;
   position: relative;
@@ -19,19 +21,29 @@
 }
 
 .scss-aboutme-images {
+  width: 90vw;
+  padding-right: 20vw;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   align-content: flex-start;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: row;
-  margin-right: 10px;
+}
+
+.scss-aboutme-text {
+  font-family: $secondary-font;
+  font-size: larger;
+}
+
+.scss-aboutme-last-text {
+  font-family: $primary-font;
+  font-size: larger;
 }
 
 
-
 .scss-aboutme-emile {
-  width: 80px;
+  width: 100px;
   box-sizing: border-box;
   transform: rotate(6deg);
 }
@@ -41,7 +53,7 @@
   transform: rotate(15deg);
 }
 .scss-aboutme-windies {
-  width: 60px;
+  width: 90px;
   box-sizing: border-box;
   transform: rotate(-15deg);
 }
@@ -54,6 +66,7 @@
   }
   .scss-aboutme-images {
     max-width: 350px;
+    padding-right: 0vw;
     justify-content: space-evenly;
     align-items: center;
     align-content: flex-start;
@@ -62,13 +75,13 @@
     margin-right: 10px;
   }
   .scss-aboutme-emile {
-    width: 120px;
+    width: 140px;
   }
   .scss-aboutme-arsenal {
     width: 160px;
   }
   .scss-aboutme-windies {
-    width: 100px;
+    width: 140px;
   }
 
 
