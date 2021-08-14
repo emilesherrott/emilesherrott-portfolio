@@ -40,7 +40,6 @@ const Footer = () => {
             </a>
           </div>
           <div className="col col-lg-6 scss-footer-logo-section">
-
             <div className="scss-footer-skills">
               <p>Fontend:</p>
               <div className="d-flex">
@@ -53,7 +52,6 @@ const Footer = () => {
                 <BulmaLogo />
               </div>
             </div>
-
             <div className="scss-footer-skills">
               <p>Backend:</p>
               <div className="d-flex">
@@ -66,7 +64,6 @@ const Footer = () => {
                 <PostgreSQLLogo />
               </div>
             </div>
-
             <div className="scss-footer-skills">
               <p className="scss-footer-skill-type">Management & Deployment:</p>
               <div className="d-flex">
