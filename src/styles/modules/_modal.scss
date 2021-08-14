@@ -15,6 +15,11 @@
   width: 280px;
   display: block;
 }
+
+.scss-modal-highlighted-text {
+  color: $primary-color-background;
+}
+
 @include media-breakpoint-up(sm) {
   .scss-modal-certificate-img, .scss-modal-body-text {
     width: 320px;
@@ -28,6 +33,9 @@
   }
 }
 
-.scss-modal-highlighted-text {
-  color: $primary-color-background;
+
+@include media-breakpoint-up(xl) {
+  .scss-modal-button {
+    margin: 0 4vw 0 4vw;
+  }
 }

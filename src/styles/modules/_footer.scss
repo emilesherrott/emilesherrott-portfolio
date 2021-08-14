@@ -24,15 +24,13 @@
   margin-bottom: 8px;
 }
 .scss-footer-skill-type {
-  width: max-content;
+  width: 40vw;
 }
 .scss-language-logo {
   width: 30px;
   box-sizing: border-box;
   margin-left: 10px;
 }
-
-
 
 @include media-breakpoint-up(md) {
   .scss-footer-text {
