@@ -6,7 +6,7 @@ import YoungEnterprise from './experience/YoungEnterprise'
 const Experience = () => {
 
   return (
-    <section className="scss-what-experience-education-section">
+    <section className="scss-what-main-section scss-what-experience-education-section">
       <h2>Experience</h2>
       <GABarclays />
       <YoungEnterprise />

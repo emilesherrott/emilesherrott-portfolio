@@ -11,7 +11,7 @@ const Who = () => {
     <div>
       <h2 className="d-flex justify-content-center scss-who-what-where-title">Who is Emile?</h2>
       <Overflow />
-      <div className="container">
+      <div className="container scss-who-what-where-para-text">
         <p>At university I studied Modern History, with a focus on the Cold War and a dissertation based on American involvement in Vietnam. What made this of particular interest to me was how it was the only war where families in America could watch and see what was happening live from their armchairs or the pictures a free press could release in their newspapers.</p>
         <p>I left education with a real sense of optimism about shaping the future equiped with an understanding of the past and I threw my efforts into charity. My first job was voluntary, a years mentoring of secondary school children in Birmingham.</p>
         <div className="scss-who-image-container">

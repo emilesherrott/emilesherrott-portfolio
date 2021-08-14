@@ -1,8 +1,15 @@
 .scss-who-what-where-title {
   margin-top: 30px;
+  margin-bottom: 60px;
 }
 .scss-who-what-where-para-text {
   font-family: $secondary-font;
-  font-size: x-large;
+  font-size: larger;
 }
 
+
+@include media-breakpoint-up(lg) {
+  .scss-who-what-where-title {
+    margin-bottom: 0px;
+  }
+}

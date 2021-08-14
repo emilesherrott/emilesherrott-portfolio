@@ -12,12 +12,14 @@ const ProjectFour = () => {
           <img src={p4Img} alt="project four image" className="scss-what-education-project-image" />
         </a>
       </div>
-      <p>Individual Project / 7 Days</p>
-      <p>
-        <a href="https://emilesherrott-ga-project-4.herokuapp.com/" target="_blank" rel="noreferrer" className="scss-what-education-project-links">Deployment</a>
-        <span> / </span>
-        <a href="https://github.com/emilesherrott/emilesherrott-ga-project-4#readme" target="_blank" rel="noreferrer" className="scss-what-education-project-links">ReadMe</a>
-      </p>
+      <div className="scss-who-what-where-para-text">
+        <p>Individual Project / 7 Days</p>
+        <p>
+          <a href="https://emilesherrott-ga-project-4.herokuapp.com/" target="_blank" rel="noreferrer" className="scss-what-education-project-links">Deployment</a>
+          <span> / </span>
+          <a href="https://github.com/emilesherrott/emilesherrott-ga-project-4#readme" target="_blank" rel="noreferrer" className="scss-what-education-project-links">ReadMe</a>
+        </p>
+      </div>
     </artcile>
   )
 }

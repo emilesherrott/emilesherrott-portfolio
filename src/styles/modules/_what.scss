@@ -1,3 +1,7 @@
+.scss-what-main-section {
+  margin-bottom: 80px;
+}
+
 .scss-what-main {
   display: flex;
   flex-direction: column;
@@ -7,6 +11,11 @@
   margin-top: 60px;
 }
 
+.scss-what-main-title {
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+}
+
 .scss-what-experience-logo, .scss-what-education-logo {
   width: 40px;
   box-sizing: border-box;
@@ -14,6 +23,11 @@
 
 .scss-what-education-title, .scss-what-education-article {
   text-align: right;
+}
+
+.scss-what-education-project-button-section {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .scss-what-education-project-button {
@@ -53,8 +67,7 @@
   .scss-what-experience-education-section {
     max-width: 45%;
   }
-  .scss-what-education-project-button-section {
-    display: flex;
-    justify-content: flex-end;
+  .scss-what-main-section {
+    margin-bottom: 0px;
   }
 }

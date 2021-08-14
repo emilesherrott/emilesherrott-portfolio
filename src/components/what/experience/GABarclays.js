@@ -7,7 +7,7 @@ const GABarclays = () => {
 
   return (
     <article className="scss-what-article">
-      <h4>Instructor Associate</h4>
+      <h4 className="scss-what-main-title">Instructor Associate</h4>
       <h5>General Assembly <img src={ga} alt="ga logo" className="scss-what-experience-logo" /> / Barclays <img src={barclays} alt="barclays logo" className="scss-what-experience-logo" /></h5>
       <h5>August - September 2021</h5>
       <p className="scss-who-what-where-para-text">Secondary instructor delivering JavaScript fundamentals course to participants of Barclays graduate programme.</p>

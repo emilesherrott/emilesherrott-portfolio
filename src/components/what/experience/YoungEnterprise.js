@@ -6,7 +6,7 @@ const YoungEnterprise = () => {
 
   return (
     <article className="scss-what-article">
-      <h4>Services Coordinator</h4>
+      <h4 className="scss-what-main-title">Services Coordinator</h4>
       <h5>Young Money <img src={yMoney} alt="ga logo" className="scss-what-experience-logo" /></h5>
       <h5>January 2020 - May 2021</h5>
       <ul className="scss-who-what-where-para-text">

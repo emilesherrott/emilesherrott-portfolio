@@ -24,5 +24,6 @@
 @include media-breakpoint-up(lg) {
   .scss-off-canvas {
     display: block;
+    margin-bottom: 60px;
   }
 }
