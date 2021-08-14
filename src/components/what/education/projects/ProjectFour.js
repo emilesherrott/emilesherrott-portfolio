@@ -8,7 +8,9 @@ const ProjectFour = () => {
     <artcile>
       <h4>emilesherrott-ga-project-4</h4>
       <div>
-        <img src={p4Img} alt="project four image" className="scss-what-education-project-image" />
+        <a href="https://emilesherrott-ga-project-4.herokuapp.com/" target="_blank" rel="noreferrer" className="scss-what-education-project-links">
+          <img src={p4Img} alt="project four image" className="scss-what-education-project-image" />
+        </a>
       </div>
       <p>Individual Project / 7 Days</p>
       <p>

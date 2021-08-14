@@ -8,7 +8,9 @@ const ProjectOne = () => {
     <artcile>
       <h4>emilesherrott-ga-project-1</h4>
       <div>
-        <img src={p1Img} alt="project one image" className="scss-what-education-project-image" />
+        <a href="https://emilesherrott.github.io/emilesherrott-ga-project-1/" target="_blank" rel="noreferrer" className="scss-what-education-project-links">
+          <img src={p1Img} alt="project one image" className="scss-what-education-project-image" />
+        </a>
       </div>
       <p>Individual Project / 7 Days</p>
       <p>

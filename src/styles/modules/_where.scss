@@ -1,0 +1,19 @@
+.scss-where-article {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.scss-where-article-title {
+  font-size: x-large;
+}
+
+
+@include media-breakpoint-up(lg) {
+  .scss-where-article {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .scss-where-industry-section {
+    text-align: end;
+    list-style-position: inside;
+  }
+}
