@@ -11,11 +11,6 @@
   margin-top: 60px;
 }
 
-.scss-what-main-title {
-  text-decoration: underline;
-  text-decoration-thickness: 4px;
-}
-
 .scss-what-experience-logo, .scss-what-education-logo {
   width: 40px;
   box-sizing: border-box;
@@ -69,5 +64,9 @@
   }
   .scss-what-main-section {
     margin-bottom: 0px;
+  }
+  .scss-what-main-title {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
   }
 }

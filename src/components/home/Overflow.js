@@ -10,19 +10,18 @@ const Overflow = () => {
       </a>
       <div className="offcanvas offcanvas-start" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div className="offcanvas-header">
-          <h4 className="offcanvas-title scss-secondary-color-font" id="offcanvasExampleLabel">Hello friend!</h4>
+          <h4 className="offcanvas-title scss-secondary-color-font" id="offcanvasExampleLabel">Hello friend</h4>
           <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div className="offcanvas-body scss-secondary-color-font">
-          <div>
-            Welcome to emilesherrott.com, I&#39;ve taken the pleasure of arranging a collection of items pertaining to myself on this site.
-            I hope you enjoy looking and if you do find any bugs please don&#39;t hesitate to contact me.
+          <div className="scss-offcanvas-text">
+            Welcome to <span className="scss-offcanvas-address">emilesherrott.com</span>, I&#39;ve taken the pleasure of arranging a collection of items pertaining to myself.
           </div>
           <div className="dropdown mt-3 d-flex justify-content-start">
             <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
               More
             </button>
-            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <ul className="dropdown-menu scss-offcanvas-dropdown" aria-labelledby="dropdownMenuButton">
               <li>
                 <Link className="dropdown-item" to="/">Home</Link>
               </li>

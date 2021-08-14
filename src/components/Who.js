@@ -22,7 +22,7 @@ const Who = () => {
         <div className="d-flex justify-content-center">
           <p className="scss-who-change-text">Many hours reading out of date HTML4 books learning Flash and a few other things... <span className="scss-who-change-special-text">here I am</span>.</p>
         </div>
-        <p>Outside of work I like sports; cycling, football, boxing, hiking. Also a big fan of cooking Jamaican food and travelling blah blah blah SNOOZE<sup className="scss-who-z">z..z..z..z..z..z</sup></p>
+        <p>Outside of work I like sports; cycling, football, boxing, hiking. Also a big fan of cooking Jamaican food and travelling blah blah blah SNOOZE<sup className="scss-who-z"> z..z..z..z..z..z</sup></p>
         <div className="scss-who-image-container">
           <img src={dd} alt="emile cycling a bicycle" className="scss-who-image-dd" />
           <p className="scss-who-image-bill-text">Mid-course on the Dunwich Dynamo. 112 miles from London Fields to the coast in Suffolk.</p>
