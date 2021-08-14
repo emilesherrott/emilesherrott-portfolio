@@ -30,7 +30,7 @@ const Qualifications = () => {
 
   return (
     <section>
-      <div className="container">
+      <div className="container scss-qualifications-body">
         <div className="justify-content-center">
           <div className="row d-flex flex-wrap justify-content-center align-items-end scss-qualifications-row">
             <div className="col-6 col-md-4 col-lg-2 col-xxl-1">

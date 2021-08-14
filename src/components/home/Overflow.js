@@ -23,9 +23,18 @@ const Overflow = () => {
               More
             </button>
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li><Link className="dropdown-item" to="/who">Who is Emile?</Link></li>
-              <li><Link className="dropdown-item" to="/what">What has he even done?</Link></li>
-              <li><Link className="dropdown-item" to="/where">Where does he want to go?</Link></li>
+              <li>
+                <Link className="dropdown-item" to="/">Home</Link>
+              </li>
+              <li>
+                <Link className="dropdown-item" to="/who">Who is Emile?</Link>
+              </li>
+              <li>
+                <Link className="dropdown-item" to="/what">What has he even done?</Link>
+              </li>
+              <li>
+                <Link className="dropdown-item" to="/where">Where does he want to go?</Link>
+              </li>
             </ul>
           </div>
         </div>
