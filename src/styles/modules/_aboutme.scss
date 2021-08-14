@@ -1,0 +1,76 @@
+.scss-aboutme-body {
+  margin-top: 20px;
+  position: relative;
+  padding: 6vw 0 1vw 0;
+  background: $secondary-color-background;
+  overflow: visible;
+  z-index: 1;
+  &::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    bottom: 0;
+    transform-origin: left bottom;
+    transform: skewY(4deg);
+  }
+}
+
+.scss-aboutme-images {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+
+
+.scss-aboutme-emile {
+  width: 80px;
+  box-sizing: border-box;
+  transform: rotate(6deg);
+}
+.scss-aboutme-arsenal {
+  width: 120px;
+  box-sizing: border-box;
+  transform: rotate(15deg);
+}
+.scss-aboutme-windies {
+  width: 60px;
+  box-sizing: border-box;
+  transform: rotate(-15deg);
+}
+
+
+@include media-breakpoint-up(lg) {
+  .scss-aboutme-text {
+    max-width: 50%;
+    margin-left: 2vw;
+  }
+  .scss-aboutme-images {
+    max-width: 350px;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 10px;
+  }
+  .scss-aboutme-emile {
+    width: 120px;
+  }
+  .scss-aboutme-arsenal {
+    width: 160px;
+  }
+  .scss-aboutme-windies {
+    width: 100px;
+  }
+
+
+
+}

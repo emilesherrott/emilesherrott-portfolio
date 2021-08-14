@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Overflow from './home/Overflow'
-// import AboutMe from './home/AboutMe'
+import AboutMe from './home/AboutMe'
 import Qualifications from './home/Qualifications'
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
     <div>
       <h1 className="d-flex justify-content-center scss-home-title">{title}</h1>
       <Overflow />
-      {/* <AboutMe /> */}
+      <AboutMe />
       <Qualifications />
     </div>
   )

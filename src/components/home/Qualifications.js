@@ -29,7 +29,7 @@ import g from '../../assets/home/qualifications/logos/g.png'
 const Qualifications = () => {
 
   return (
-    <>
+    <section>
       <div className="container">
         <div className="justify-content-center">
           <div className="row d-flex flex-wrap justify-content-center align-items-end scss-qualifications-row">
@@ -171,7 +171,7 @@ const Qualifications = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   )
 }
 
