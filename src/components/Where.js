@@ -8,7 +8,7 @@ const Where = () => {
     <div>
       <h2 className="d-flex justify-content-center scss-who-what-where-title">Where does he want to go?</h2>
       <Overflow />
-      <div className="container">
+      <div className="container scss-who-what-where-para-text">
         <p>Although I&#39;m happy with what I&#39;ve achieved, I know at this point I&#39;ve just scratched the surface in what I hope to know - which I find really exciting. It&#39;s important for me to continue learning to not only consolidate but my current skills but to expand them and ultimately write code which is used successfully by as many people as possible.</p>
         <p>I&#39;m keen to work in part of a diverse but close team and invest myself into the organisation. It&#39;s my hope to contribute to projects people are passionate about and which I am passionate about too.</p>
         <article className="d-flex scss-where-article">
