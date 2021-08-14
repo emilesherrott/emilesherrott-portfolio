@@ -1,9 +1,14 @@
 .scss-where-article {
+  flex-direction: column;
   margin-top: 60px;
   margin-bottom: 40px;
 }
 .scss-where-article-title {
   font-size: x-large;
+}
+
+.scss-where-industry-section {
+  margin-top: 40px;
 }
 
 
@@ -13,6 +18,7 @@
     justify-content: space-between;
   }
   .scss-where-industry-section {
+    margin-top: 0px;
     text-align: end;
     list-style-position: inside;
   }

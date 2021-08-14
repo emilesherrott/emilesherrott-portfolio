@@ -9,9 +9,9 @@ const What = () => {
 
   return (
     <div>
+      <h2 className="d-flex justify-content-center scss-who-what-where-title">What has he even done?</h2>
+      <Overflow />
       <div className="container">
-        <h2 className="d-flex justify-content-center scss-who-what-where-title">What has he even done?</h2>
-        <Overflow />
         <div className="d-flex scss-what-main">
           <Experience />
           <Education />
