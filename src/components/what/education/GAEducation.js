@@ -46,8 +46,8 @@ const GAEducation = () => {
         {project}
       </div>
       <div className="scss-what-education-project-button-section scss-who-what-where-para-text">
-        <p className="scss-what-education-project-button" onClick={previousProject}>Previous</p>
-        <p className="scss-what-education-project-button" onClick={nextProject}>Next</p>
+        <p className="scss-what-education-project-button" onClick={previousProject} onTouchStart={previousProject}>Previous</p>
+        <p className="scss-what-education-project-button" onClick={nextProject} onTouchStart={previousProject}>Next</p>
       </div>
     </article>
   )
