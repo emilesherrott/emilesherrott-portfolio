@@ -19,6 +19,8 @@ const GAEducation = () => {
       setProject(<ProjectTwo />)
     } else if (count === 2) {
       setProject(<ProjectOne />)
+    } else {
+      setProject(<ProjectOne />)
     }
   }
 
@@ -30,33 +32,10 @@ const GAEducation = () => {
       setProject(<ProjectThree />)
     } else if (count === 3) {
       setProject(<ProjectFour />)
+    } else {
+      setProject(<ProjectFour />)
     }
   }
-  // const previousProject = () => {
-  //   if (project.type.name === 'ProjectOne') {
-  //     setProject(<ProjectOne />)
-  //   } else if (project.type.name === 'ProjectTwo') {
-  //     setProject(<ProjectOne />)
-  //   } else if (project.type.name === 'ProjectThree') {
-  //     setProject(<ProjectTwo />)
-  //   } else if (project.type.name === 'ProjectFour') {
-  //     setProject(<ProjectThree />)
-  //   } 
-  // }
-
-  // const nextProject = () => {
-  //   if (project.type.name === 'ProjectOne') {
-  //     setProject(<ProjectTwo />)
-  //   } else if (project.type.name === 'ProjectTwo') {
-  //     setProject(<ProjectThree />)
-  //   } else if (project.type.name === 'ProjectThree') {
-  //     setProject(<ProjectFour />)
-  //   } else if (project.type.name === 'ProjectFour') {
-  //     setProject(<ProjectFour />)
-  //   }
-  // }    
-
-  console.log(project.type.name)
 
   return (
     <article className="scss-what-article scss-what-education-article">
