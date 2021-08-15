@@ -17,6 +17,11 @@
   width: 60vw;
   text-align: center;
 }
+.scss-who-image-bill-text-highlight {
+  text-decoration: underline;
+  text-decoration-color: $secondary-color-background;
+  text-decoration-thickness: 4px;
+}
 .scss-who-change-text {
   font-family: $primary-font;
   width: 60vw;

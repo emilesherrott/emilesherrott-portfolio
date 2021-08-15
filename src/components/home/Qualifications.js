@@ -34,7 +34,7 @@ const Qualifications = () => {
         <div className="justify-content-center">
           <div className="scss-qualifications-title-section">
             <h2 className="scss-qualifications-title">Certificates</h2>
-            <h4 className="scss-qualifications-subtitle">Click icons to see certification</h4>
+            <h4 className="scss-qualifications-subtitle">Click on the icons to see certification</h4>
           </div>
           <div className="row d-flex flex-wrap justify-content-center align-items-end scss-qualifications-row">
             <div className="col-6 col-md-4 col-lg-2 col-xxl-2">

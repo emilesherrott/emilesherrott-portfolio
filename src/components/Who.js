@@ -12,11 +12,11 @@ const Who = () => {
       <h2 className="d-flex justify-content-center scss-who-what-where-title">Who is Emile?</h2>
       <Overflow />
       <div className="container scss-who-what-where-para-text">
-        <p>At university I studied Modern History, with a focus on the Cold War and a dissertation based on American involvement in Vietnam. What made this of particular interest to me was how it was the only war where families in America could watch and see what was happening live from their armchairs or the pictures a free press could release in their newspapers.</p>
+        <p>At university I studied Modern History, with a focus on the Cold War and a dissertation based on America military involvement in Vietnam. What made this of particular interest to me was how it was the only war where American or Western families could watch what was happening live from their armchairs or see the pictures a free press could release in their morning newspapers.</p>
         <p>I left education with a real sense of optimism about shaping the future equiped with an understanding of the past and I threw my efforts into charity. My first job was voluntary, a years mentoring of secondary school children in Birmingham.</p>
         <div className="scss-who-image-container">
           <img src={bill} alt="emile shaking hands with bill clinton" className="scss-who-image-bill" />
-          <p className="scss-who-image-bill-text">I (center) was fortunate enough to represent volunteers from Birmingham to meet former President Bill Clinton.</p>
+          <p className="scss-who-image-bill-text">I was fortunate enough to represent volunteers from Birmingham to meet former <span className="scss-who-image-bill-text-highlight">US President Bill Clinton</span>.</p>
         </div>
         <p>My journey in the charity industry has lead me to support apprentices studying Software Engineering and working with financial organisations developing tech to support students. I&#39;ve also had the opportunity to live with developers who&#39;ve satisfied answers to my questions behind a lot of the tech I use and grown my curiosity to learn more.</p>
         <div className="d-flex justify-content-center">
