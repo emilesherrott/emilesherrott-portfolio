@@ -5,7 +5,7 @@ import p1Img from '../../../../assets/what/projects/p1-img.png'
 const ProjectOne = () => {
 
   return (
-    <artcile>
+    <article>
       <h4>emilesherrott-ga-project-1</h4>
       <div>
         <a href="https://emilesherrott.github.io/emilesherrott-ga-project-1/" target="_blank" rel="noreferrer" className="scss-what-education-project-links">
@@ -20,7 +20,7 @@ const ProjectOne = () => {
           <a href="https://github.com/emilesherrott/emilesherrott-ga-project-1#readme" target="_blank" rel="noreferrer" className="scss-what-education-project-links">ReadMe</a>
         </p>
       </div>
-    </artcile>
+    </article>
   )
 }
 

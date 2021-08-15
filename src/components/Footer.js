@@ -29,7 +29,7 @@ const Footer = () => {
       <div className="container scss-footer">
         <div className="row scss-footer-body">
           <div className="col col-lg-6 scss-footer-contactinfo">
-            <a href="emilesherrott@gmail.com" target="_blank">
+            <a href="mailto:emilesherrott@gmail.com" target="_blank" rel="noreferrer">
               <p className="scss-footer-text">emilesherrott@gmail.com</p>
             </a>
             <a href="https://github.com/emilesherrott" target="_blank" rel="noreferrer">

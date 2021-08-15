@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import Time from '../Time'
+
 const Overflow = () => {
 
   return (
@@ -10,7 +12,7 @@ const Overflow = () => {
       </a>
       <div className="offcanvas offcanvas-start" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div className="offcanvas-header">
-          <h4 className="offcanvas-title scss-secondary-color-font" id="offcanvasExampleLabel">Hello friend</h4>
+          <div className="offcanvas-title scss-secondary-color-font" id="offcanvasExampleLabel"><Time /></div>
           <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div className="offcanvas-body scss-secondary-color-font">

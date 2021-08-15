@@ -12,7 +12,7 @@ const AboutMe = () => {
     <section className="scss-aboutme-body">
       <div className="container">
         <div className="d-flex flex-column flex-lg-row align-items-start">
-          <h2 className="scss-aboutme-title">About Me</h2>
+          <h2 className="scss-aboutme-title">In a nutshell</h2>
           <div className="scss-aboutme-text">
             <p>Hello! My name is Emile and I&#39;m a Junior Developer. I used to work for different charities, education and youth organisations. My journey into code has been slow and steady, building up knowledge, confidence and the finances to make a career change. I&#39;ve recently finished a Software Engineering course which now signals the beginning of my search for a new career and a new chapter of continued learning.</p>
             <p className="scss-aboutme-last-text">I love my cycling, hiking and cooking... and of course coding.</p>
