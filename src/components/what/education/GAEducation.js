@@ -10,31 +10,51 @@ import ProjectFour from './projects/ProjectFour'
 const GAEducation = () => {
 
   const [project, setProject] = useState(<ProjectOne />)
+  const [count, setCount] = useState(1)
   const previousProject = () => {
-    console.log(project.type.name)
-    if (project.type.name === 'ProjectOne') {
-      setProject(<ProjectOne />)
-    } else if (project.type.name === 'ProjectTwo') {
-      setProject(<ProjectOne />)
-    } else if (project.type.name === 'ProjectThree') {
-      setProject(<ProjectTwo />)
-    } else if (project.type.name === 'ProjectFour') {
+    if (count > 1) setCount(count - 1)
+    if (count === 4) {
       setProject(<ProjectThree />)
-    } 
+    } else if (count === 3) {
+      setProject(<ProjectTwo />)
+    } else if (count === 2) {
+      setProject(<ProjectOne />)
+    }
   }
 
   const nextProject = () => {
-    console.log('click')
-    if (project.type.name === 'ProjectOne') {
+    if (count < 4) setCount(count + 1)
+    if (count === 1) {
       setProject(<ProjectTwo />)
-    } else if (project.type.name === 'ProjectTwo') {
+    } else if (count === 2) {
       setProject(<ProjectThree />)
-    } else if (project.type.name === 'ProjectThree') {
-      setProject(<ProjectFour />)
-    } else if (project.type.name === 'ProjectFour') {
+    } else if (count === 3) {
       setProject(<ProjectFour />)
     }
-  }    
+  }
+  // const previousProject = () => {
+  //   if (project.type.name === 'ProjectOne') {
+  //     setProject(<ProjectOne />)
+  //   } else if (project.type.name === 'ProjectTwo') {
+  //     setProject(<ProjectOne />)
+  //   } else if (project.type.name === 'ProjectThree') {
+  //     setProject(<ProjectTwo />)
+  //   } else if (project.type.name === 'ProjectFour') {
+  //     setProject(<ProjectThree />)
+  //   } 
+  // }
+
+  // const nextProject = () => {
+  //   if (project.type.name === 'ProjectOne') {
+  //     setProject(<ProjectTwo />)
+  //   } else if (project.type.name === 'ProjectTwo') {
+  //     setProject(<ProjectThree />)
+  //   } else if (project.type.name === 'ProjectThree') {
+  //     setProject(<ProjectFour />)
+  //   } else if (project.type.name === 'ProjectFour') {
+  //     setProject(<ProjectFour />)
+  //   }
+  // }    
 
   console.log(project.type.name)
 
