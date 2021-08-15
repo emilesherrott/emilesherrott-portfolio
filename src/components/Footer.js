@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
           <div className="col col-lg-6 scss-footer-logo-section">
             <div className="scss-footer-skills">
-              <p>Fontend:</p>
+              <p>Frontend:</p>
               <div className="d-flex">
                 <JavaScriptLogo />
                 <ReactLogo />
